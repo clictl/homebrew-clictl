@@ -2,31 +2,32 @@
 # frozen_string_literal: true
 
 class Clictl < Formula
-  desc "The package manager for your Agent"
+  desc "A package manager for AI agents"
+  license "Apache-2.0"
   homepage "https://clictl.dev"
   version "0.1.0" # Updated automatically by release workflow
 
   on_macos do
     on_arm do
       url "https://download.clictl.dev/releases/v#{version}/clictl-darwin-arm64.tar.gz"
-      sha256 "d3e6c69360d25f9b86c3851036f9339e628e80a7267d2231119598a1b13517dd" # Updated automatically by release workflow
+      sha256 "9623894528f8e26d19f50ccc13e91ead193c58f681c102658c3555b8a9c05146" # Updated automatically by release workflow
     end
 
     on_intel do
       url "https://download.clictl.dev/releases/v#{version}/clictl-darwin-amd64.tar.gz"
-      sha256 "67d9bda6bb27f04abe3f87bfe578ef41188b92313142d2e46d8883321032e72e" # Updated automatically by release workflow
+      sha256 "e5478958001e5b78ab1e7f13eaa0c6e6ed9135a38418e79f35c70aec24826bc7" # Updated automatically by release workflow
     end
   end
 
   on_linux do
     on_arm do
       url "https://download.clictl.dev/releases/v#{version}/clictl-linux-arm64.tar.gz"
-      sha256 "18e10d1fbefaf12bba5e8033da473e86444392cda7206a84765815dab8f49e3d" # Updated automatically by release workflow
+      sha256 "5426e5ac87576d183a3838da91fdbbcca9d11dd9279341178b35e6e39a7c6d97" # Updated automatically by release workflow
     end
 
     on_intel do
       url "https://download.clictl.dev/releases/v#{version}/clictl-linux-amd64.tar.gz"
-      sha256 "dec615777a11b9b93cb2c80b140cb1955306524b99cad64fd30af25d39854324" # Updated automatically by release workflow
+      sha256 "ae2c8d6e0e3a4671ba9dfbe4dbdc20698e7b4eb00ad3062ab004d5c4d20c374b" # Updated automatically by release workflow
     end
   end
 
