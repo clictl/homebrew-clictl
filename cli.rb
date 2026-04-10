@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class Clictl < Formula
+class Cli < Formula
   desc "A package manager for AI agents"
   license "Apache-2.0"
   homepage "https://clictl.dev"

@@ -5,19 +5,19 @@ Official [Homebrew](https://brew.sh) tap for [clictl](https://clictl.dev) - a pa
 ## Install
 
 ```bash
-brew install clictl/cli/clictl
+brew install clictl/cli
 ```
 
 ## Upgrade
 
 ```bash
-brew upgrade clictl
+brew upgrade clictl/cli
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall clictl
+brew uninstall clictl/cli
 ```
 
 ## About
